@@ -1,0 +1,24 @@
+
+body { 
+		font-family: Verdana, Geneva, sans-serif;
+		background-color: hsl(180,100%,19%);}/* Hue, Saturation, lightness*/
+
+h1, h2, h4 { 
+		color: LightGrey; /* color name*/ 
+		background-color: #009999;}/* hex value*/
+h4 {
+	font-family:Helvetica;
+	opacity:0.5;} /*opacity*/
+
+p, ol { 
+	color: rgb(224,224,224); /* rgb value */
+	font-family: Arial;
+	font-size:16px;}
+ol{ 
+	background-color:#1d7373;
+	opacity:0.5;}
+
+p#end1,p#end2 {
+				font-size:12px;
+				opacity:0.5;}
+
