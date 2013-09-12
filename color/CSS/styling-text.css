@@ -1,25 +1,25 @@
 
 body { 
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;/* main font family*/
 	font-weight: bold;
-	text-indent: 10px;}
+	text-indent: 10px;}/* indented 10 pixles*/
 
 h1,h2 {
-	font-family: 'Hammersmith One', sans-serif;
-	text-transform: uppercase;
-	letter-spacing:.35em;
-	text-shadow: 1px 2px 15px #006363;
+	font-family: 'Hammersmith One', sans-serif; /* link to google fonts*/
+	text-transform: uppercase;/* h1 and h2 all uppercase*/
+	letter-spacing:.35em;/* heading letters spaced out wide*/
+	text-shadow: 1px 2px 15px #006363;/* drop shadow on text headings*/
 	line-height:1.5em}
 
-span#reference {
+span#reference {/* id for "reference" on h1 title*/
 	text-transform: lowercase;
 	letter-spacing:.10em;
 	line-height:1.5em;}
 		
 h4 {
-	font-family: Helvetica;}
+	font-family: Helvetica;}/* "content" with id links-title*/
 
-a:link {
+a:link {		/* link colors and status blue/orange*/
 	color:#1240ab;}
 a:visited {
 	color:#06266f;}
@@ -28,12 +28,12 @@ a:hover {
 a:active {
 	color:#ffaa00;}
 
-p, ol { 
+p, ol { /* paragraph and lists font and style*/
 	font-family: Arial;
 	font-size: 16px;
 	font-weight: normal;}
 
-p#end1, p#end2 {
+p#end1, p#end2 {/* copyright and cite quote*/
 	font-size:12px;
 	opacity:0.5;}
 
