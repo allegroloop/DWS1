@@ -1,19 +1,19 @@
 
 body { 
-		background-color: hsl(180,100%,19%);}/* Hue, Saturation, lightness*/
+	background-color: #1d7373;}/* Hue, Saturation, lightness*/
 
 h1, h2, h4 { 
-		color: LightGrey; /* color name*/ 
-		background-color: #009999;}/* hex value*/
+	color: LightGrey; /* color name*/ 
+	background-color: #009999;}/* hex value*/
 h4 {
-	opacity:0.5;} /*opacity*/
+	opacity:0.95;} /*opacity*/
 
 p, ol { 
 	color: rgb(224,224,224); /* rgb value */}
 
-ol{ 
+ul{ 
 	background-color:#1d7373;
-	opacity:0.5;}
+	opacity:0.90;}
 
 
 
