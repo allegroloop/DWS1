@@ -1,0 +1,39 @@
+
+body { 
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	text-indent: 10px;}
+
+h1,h2 {
+	font-family: 'Hammersmith One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing:.35em;
+	text-shadow: 1px 2px 15px #006363;
+	line-height:1.5em}
+
+span#reference {
+	text-transform: lowercase;
+	letter-spacing:.10em;
+	line-height:1.5em;}
+		
+h4 {
+	font-family: Helvetica;}
+
+a:link {
+	color:#1240ab;}
+a:visited {
+	color:#06266f;}
+a:hover {
+	color:#ff7400;}
+a:active {
+	color:#ffaa00;}
+
+p, ol { 
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: normal;}
+
+p#end1, p#end2 {
+	font-size:12px;
+	opacity:0.5;}
+
