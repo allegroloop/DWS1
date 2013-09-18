@@ -9,7 +9,7 @@ h4 {
 	opacity:0.95;} /*opacity*/
 
 p, ol { 
-	color: 224,224,224); /* rgb value */}
+	color: rgb(224,224,224); /* rgb value */}
 
 ul{ 
 	background-color:#1d7373;

@@ -1,0 +1,108 @@
+
+body { 
+	background-color: #1d7373;
+	font: bold Verdana, Geneva, sans-serif;/*shorthand bold and font-family*/
+	text-indent: 10px;
+	}
+
+div {
+	height: 100%; 
+	width: 75%; 
+	background-color: hsl(180,100%,19%);
+	margin:auto;/*this centers the main div for the body*/
+	border: 12px solid #009999;/*shorthand border width styl  color*/ 
+	box-shadow:  0 0 45px #006363;/*adds a slight shadow behind the main border*/	
+	border-radius: 10px 10px 10px 10px;
+
+	}
+
+h1,h2 { 
+	font: 1.7em 'Hammersmith One', sans-serif; /*shorthand font size and family*/
+	text-transform: uppercase;/* h1 and h2 all uppercase*/
+	letter-spacing:.35em;/* heading letters spaced out wide*/
+	text-shadow: 1px 2px 15px #006363;/* shorthand drop shadow on text headings*/
+	padding-left:10px;
+	margin-top: 0px;
+	color: LightGrey; /* color name*/ 
+	background-color: #009999;
+	clear:both;
+	}
+
+h1{
+	font-size: 40px;
+	}
+	
+
+span#reference {/* id for "reference date" on h1 title*/
+	font-size:30px;
+	text-transform: lowercase;
+	letter-spacing:.10em;
+	line-height:1.5em;
+	}
+		
+h4 {
+	font-family: Helvetica;
+	padding: 3px;
+	color: LightGrey; /* color name*/ 
+	background-color: #009999;
+	opacity:0.95;
+	clear:both;
+	}/* "content" with id links-title*/
+
+a:link {		/* link colors and status blue/orange*/
+	color:rgb(220,220,220);
+	}
+
+a:visited {
+	color:#009999;
+	}
+
+a:hover {
+	color:#ff7400;
+	}
+
+a:active {
+	color:#ffaa00;
+	}
+
+p, ul { 
+	font: normal 16px Arial;/* paragraph and lists font family, size and weight*/
+	color: rgb(224,224,224)
+	}
+p {
+	width: 25%; 
+	float: left; 
+	margin: 4%; 
+	padding: 0%;
+	}
+
+.p1{
+	width:90%;
+	float:none;
+	margin:0%;
+	padding:4%;
+	}
+
+	
+ul{ 
+	background-color:#1d7373;
+	opacity:0.90;
+	}
+ 
+
+li { 
+	border: 12px solid #1d7373;/*border adds bulge to ul box*/
+	display: inline;/*links to the rest of the page under"content" section*/ 
+	margin: 50px;
+	}
+
+p#end1, p#end2 {/* copyright and cite quote at bottom of page*/
+	font-size:12px;
+	opacity:0.5;
+	width:75%;
+	margin:5%;
+	padding-left:7%;
+	float:none;
+	clear:both;
+	}
+
