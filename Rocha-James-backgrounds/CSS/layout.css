@@ -1,6 +1,6 @@
 
 body { 
-	background-image:url('images/pattern_156.gif');
+	background-image:url('images/pattern_156.gif');/*pattern*/
 	background-repeat:repeat;
 	background-position:top;
 	background-color: #1d7373 ;
@@ -13,7 +13,7 @@ div {
 	width: 75%; 
 	background-color: hsl(180,100%,19%);
 	margin:auto;/*this centers the main div for the body*/
-	border: 12px solid #009999;/*shorthand border width styl  color*/ 
+	border: 12px solid #0d3232;/*shorthand border width styl  color*/ 
 	box-shadow:  0 0 45px #001717;/*adds a slight shadow behind the main border*/	
 	border-radius: 10px 10px 10px 10px;
 	background: linear-gradient(to bottom, rgba(29,115,115,0.98) 1%,rgba(29,115,115,0.98) 7%,rgba(2,52,52,1) 94%,rgba(0,48,48,1) 100%); /* W3C gradient */
@@ -29,9 +29,10 @@ h1,h2 {
 	letter-spacing:.35em;/* heading letters spaced out wide*/
 	text-shadow: 1px 2px 15px #006363;/* shorthand drop shadow on text headings*/
 	padding-left:10px;
+	padding-top:5px;
 	margin-top: 0px;
 	color: LightGrey; /* color name*/ 
-	background-color: #009999;
+	background-color: #0d3232;
 	clear:both;
 	}
 
@@ -51,10 +52,40 @@ h4 {
 	font-family: Helvetica;
 	padding: 3px;
 	color: LightGrey; /* color name*/ 
-	background-color: #009999;
+	background-color: #0d3232;
 	opacity:0.95;
 	clear:both;
 	}/* "content" with id links-title*/
+
+table {
+	width:90%;
+	margin:5%;
+	background-color:#003131;
+	}
+
+th, td{
+	padding:10px 10px 10px 25px;/*table padding*/
+	}
+
+th { 
+	text-transform: uppercase; /*table Heading*/
+	letter-spacing: 0.1em; 
+	font: bold 90% Helvetica, sans-serif;
+	color:LightGrey;
+	box-shadow: 0 0 3px #001717;
+	border: 7px solid #1d7373; 
+	text-align: left;
+	}
+	
+td {
+	border:1px groove #1d7373;/*table appearence*/
+	font: normal Arial, Helvetica, sans-serif;
+	color:LightGrey;	
+	}
+	
+td:hover{/*table hover color*/
+	background-color:#009999;
+	}
 
 a:link {		/* link colors and status blue/orange*/
 	color:rgb(220,220,220);
@@ -93,15 +124,18 @@ p {
 
 	
 ul{ margin:5%;
+	padding-left:5%;
+	padding-right:5%;
 	background-color:#1d7373;
+	text-align:left;
 	opacity:0.90;
 	}
  
 
 li { 
 	border: 12px solid #1d7373;/*border adds bulge to ul box*/
-	display: inline;/*links to the rest of the page under"content" section*/ 
-	margin: 50px;
+	display:inline-block;/*links to the rest of the page under"content" section*/ 
+	margin-left: 12%;
 	}
 
 p#end1, p#end2 {/* copyright and cite quote at bottom of page*/
