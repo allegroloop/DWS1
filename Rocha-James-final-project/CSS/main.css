@@ -1,0 +1,204 @@
+/*cololors 
+light grey-#B9C3CC
+White-ish-#F9FFFF
+Dark Grey-#242323
+Orange-Red-#CC2920
+Black-#000000*/
+body { 
+	font:17px Quicksandbook, Arial, Helvetica, sans-serif;
+	color:#B9C3CC;
+	background:#B9C3CC url("bgimages/charcoal.gif") repeat top left;
+	margin:auto;
+	width:920px;
+	}
+
+div{
+	background-color: #242323;
+	padding-right:25px;	
+	}
+
+.wrapper{
+	box-shadow:  0px 0px 100px 10px #000000;/*main outside div*/
+	border:2px solid #202020;
+	border-radius:30px;
+	}
+
+.one, .two, .three{	/*the top right nav*/
+	padding:55px 0px 65px 0px;
+	margin-left:10px;
+	text-decoration:none;
+	display:inline-block;
+	float:right;
+	text-align:center;
+	}
+
+a:link, a:active, a:visited {/*strong*/
+	color:#B9C3CC;	
+	}
+	
+a:hover {
+	color:#CC2920;
+	}
+	
+li{ 
+	font:bold 16px Quicksandbook, Arial, Helvetica, sans-serif;
+	background-color:#242323;
+	opacity:0.90;
+	}
+
+h1, h2, h3, h4, nav { 
+	color: #CC2920; /* color name*/ 
+	background-color: #242323;
+	}
+
+h1{/*Logo Top*/
+	font: 44px 'Quattrocento Sans', sans-serif;/*google font*/
+	padding:10px 20px 5px 30px;
+	position:absolute;
+	text-shadow:1px 1px 10px #282828;
+	z-index:100;
+	border-bottom:solid;
+	border-top:solid;
+	}
+
+.mastering{/*logo*/
+	font-size:36px;
+	color:#B9C3CC;
+	line-height:1.4em;
+	}	
+
+h2{
+	padding:40px 0px 10px 5px;
+	border-bottom:solid;
+	margin-right:300px;
+	clear:both;
+	}
+	
+h4{
+	margin-left:30px;
+	}
+
+.steps{/*4 steps ol*/
+	float:right;
+	clear:both;
+	margin-right:30px;
+	width:150px;	
+	}
+
+img.pic1{/*top pic of studio*/
+	float:left;
+	margin:30px;
+	}
+
+article{
+	margin-left:15px;
+	margin-right:10px
+	}
+
+.about{/*div for text on page*/
+	padding:150px 55px 30px 55px;
+	}
+
+blockquote{
+	font:italic normal 16px Arial, Helvetica, sans-serif;
+	color:#CC2920;
+	}
+
+.pricepara{
+	margin:75px 20px 40px 20px;
+	width:450px;
+	}
+
+.table{/*this is the title header for the pricing table*/
+	color:#CC2920;
+	float:right;
+	padding-right:70px;	
+	}
+	
+table{
+	width:178px;
+	border:2px solid #202020;
+	box-shadow:  0px 0px 3px 2px #202020;
+	margin-right:30px;
+	float:right;
+	clear:right;
+	}
+
+th,td{
+	background-color:#303030;
+	background: linear-gradient(to bottom, rgba(48,48,48,1) 0%,rgba(33,33,33,1) 100%); /* W3C */
+	padding:4px;
+	box-shadow:inset 0 0 2px #282828;
+	text-shadow:-1px -2px #202020;
+	border-collapse:collapse;
+	}
+
+th{
+	color:#C0C0C0;
+	}
+	
+td{
+	padding-left:18px;
+	}
+	
+td:hover{
+	color:#CC2920;
+	}
+	
+.list1, .list2 ,.list3{/*client lists*/
+	display:inline-block;
+	padding:20px;
+	}
+	
+.servicePics{/*div class for compression and eq pics*/
+	padding:20px 0px 20px 0px;
+	}
+	
+.compression,.eqs{/*pics of eq and compression*/
+	float:left;
+	border:#242323 solid 5px;	
+	}
+form{
+	background-color:#333;
+	margin-right:300px;
+	padding:5px;
+	border-radius:10px;
+	border:hidden 2px #242323;
+	box-shadow:  0px 0px 5px 2px #282828;
+	}
+
+input:hover, input:focus{
+	background-color:#DEB7B1;
+	}
+	
+.name, .email, .select, .radio, .select, .textarea, .submit{
+	text-align:left;	
+	clear:left;
+	width: 60%;  
+	margin: 10px;
+	}
+	
+aside{
+	border:dotted 2px #CC2920;
+	font-size:12px;
+	margin:0px 6px 0px 0px;
+	opacity:0.4; 
+	padding:10px;
+	float:right;
+	width:150px;
+	}
+	
+footer{
+	font-size:12px;
+	border-top:2px dashed #CC2920 ;
+	padding:40px;
+	margin-left:20px;
+	opacity:0.3;
+	}
+
+
+
+
+
+
+
